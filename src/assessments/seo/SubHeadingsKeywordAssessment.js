@@ -157,7 +157,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 					/**
       * Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag.
       */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase in subheading%2$s: Your subheading reflects the topic of your copy. Good job!"), this._config.urlTitle, "</a>")
+					i18n.dngettext("js-text-analysis", "%1$sKeyword in subheading%2$s: Your subheading reflects the topic of your copy. Good job!"), this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -169,7 +169,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
       * Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag,
       * %3$s expands to the percentage of subheadings that reflect the topic of the copy.
       */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase in subheading%2$s: %3$s (out of %4$s) subheadings reflect the topic of your copy. Good job!"), this._config.urlTitle, "</a>", this._subHeadings.matches, this._subHeadings.count)
+					i18n.dngettext("js-text-analysis", "%1$sKeyword in subheading%2$s: %3$s (out of %4$s) subheadings reflect the topic of your copy. Good job!"), this._config.urlTitle, "</a>", this._subHeadings.matches, this._subHeadings.count)
 				};
 			}
 
@@ -179,7 +179,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 				/**
      * Translators: %1$s and %2$s expand to a link on yoast.com, %3$s expands to the anchor end tag.
      */
-				i18n.dngettext("js-text-analysis", "%1$sKeyphrase in subheading%3$s: %2$sUse more keyphrases or synonyms in your subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dngettext("js-text-analysis", "%1$sKeyword in subheading%3$s: %2$sUse more keywords or synonyms in your subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 
@@ -258,7 +258,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 					score: this._config.scoresRecalibration.tooFewMatches,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to a link on yoast.com, %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in subheading%3$s: %2$sUse more keyphrases or synonyms in your higher-level subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in subheading%3$s: %2$sUse more keywords or synonyms in your higher-level subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -267,7 +267,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 					score: this._config.scoresRecalibration.tooManyMatches,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to a link on yoast.com, %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in subheading%3$s: More than 75%% of your higher-level subheadings reflect the topic of your copy. " + "That's too much. %2$sDon't over-optimize%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in subheading%3$s: More than 75%% of your higher-level subheadings reflect the topic of your copy. " + "That's too much. %2$sDon't over-optimize%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -277,7 +277,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag,
      %3$d expands to the number of subheadings containing the keyphrase. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in subheading%2$s: Your higher-level subheading reflects the topic of your copy. Good job!", this._subHeadings.matches), this._config.urlTitle, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in subheading%2$s: Your higher-level subheading reflects the topic of your copy. Good job!", this._subHeadings.matches), this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -287,7 +287,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag,
      %3$d expands to the number of subheadings containing the keyphrase. */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase in subheading%2$s: %3$s of your higher-level subheadings reflects the topic of your copy. Good job!", "%1$sKeyphrase in subheading%2$s: %3$s of your higher-level subheadings reflect the topic of your copy. Good job!", this._subHeadings.matches), this._config.urlTitle, "</a>", this._subHeadings.matches)
+					i18n.dngettext("js-text-analysis", "%1$sKeyword in subheading%2$s: %3$s of your higher-level subheadings reflects the topic of your copy. Good job!", "%1$sKeyword in subheading%2$s: %3$s of your higher-level subheadings reflect the topic of your copy. Good job!", this._subHeadings.matches), this._config.urlTitle, "</a>", this._subHeadings.matches)
 				};
 			}
 
@@ -295,7 +295,7 @@ var SubHeadingsKeywordAssessment = function (_Assessment) {
 				score: this._config.scoresRecalibration.noMatches,
 				resultText: i18n.sprintf(
 				/* Translators: %1$s and %2$s expand to a link on yoast.com, %3$s expands to the anchor end tag. */
-				i18n.dgettext("js-text-analysis", "%1$sKeyphrase in subheading%3$s: %2$sUse more keyphrases or synonyms in your higher-level subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dgettext("js-text-analysis", "%1$sKeyword in subheading%3$s: %2$sUse more keywords or synonyms in your higher-level subheadings%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 	}]);

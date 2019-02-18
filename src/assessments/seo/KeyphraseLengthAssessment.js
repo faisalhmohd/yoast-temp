@@ -138,14 +138,14 @@ var KeyphraseLengthAssessment = function (_Assessment) {
 						score: this._config.scores.veryBad,
 						resultText: i18n.sprintf(
 						/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-						i18n.dgettext("js-text-analysis", "%1$sKeyphrase length%3$s: " + "%2$sSet a keyphrase in order to calculate your SEO score%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+						i18n.dgettext("js-text-analysis", "%1$sKeyword length%3$s: " + "%2$sSet a keyword in order to calculate your SEO score%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 					};
 				}
 				return {
 					score: this._config.scores.veryBad,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase length%3$s: No focus keyphrase was set for this page. " + "%2$sSet a keyphrase in order to calculate your SEO score%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword length%3$s: No focus keyword was set for this page. " + "%2$sSet a keyword in order to calculate your SEO score%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -154,7 +154,7 @@ var KeyphraseLengthAssessment = function (_Assessment) {
 					score: this._config.scores.good,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase length%2$s: Good job!"), this._config.urlTitle, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword length%2$s: Good job!"), this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -167,7 +167,7 @@ var KeyphraseLengthAssessment = function (_Assessment) {
      %2$d expands to the recommended maximum of words in the keyphrase,
      %3$s and %4$s expand to links on yoast.com,
      %5$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%3$sKeyphrase length%5$s: The keyphrase is %1$d words long. That's more than the recommended maximum of %2$d words. " + "%4$sMake it shorter%5$s!"), this._keyphraseLength, this._boundaries.recommendedMaximum, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%3$sKeyword length%5$s: The keyword is %1$d words long. That's more than the recommended maximum of %2$d words. " + "%4$sMake it shorter%5$s!"), this._keyphraseLength, this._boundaries.recommendedMaximum, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -179,7 +179,7 @@ var KeyphraseLengthAssessment = function (_Assessment) {
     %2$d expands to the recommended maximum of words in the keyphrase,
     %3$s and %4$s expand to links on yoast.com,
     %5$s expands to the anchor end tag. */
-				i18n.dgettext("js-text-analysis", "%3$sKeyphrase length%5$s: The keyphrase is %1$d words long. That's way more than the recommended maximum of %2$d words. " + "%4$sMake it shorter%5$s!"), this._keyphraseLength, this._boundaries.recommendedMaximum, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dgettext("js-text-analysis", "%3$sKeyword length%5$s: The keyword is %1$d words long. That's way more than the recommended maximum of %2$d words. " + "%4$sMake it shorter%5$s!"), this._keyphraseLength, this._boundaries.recommendedMaximum, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 	}]);

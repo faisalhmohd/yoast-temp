@@ -34,7 +34,7 @@ var calculateStopWordsCountResult = function calculateStopWordsCountResult(stopW
 			score: 0,
 			text: i18n.dngettext("js-text-analysis",
 			/* Translators: %1$s and %2$s open links to Yoast articles, %3$s is the anchor end tag */
-			"%1$sStopwords%3$s: The keyphrase contains stop words. " + "This may or may not be wise depending on the circumstances. " + "%2$sLearn more about stop words%3$s.")
+			"%1$sStopwords%3$s: The keyword contains stop words. " + "This may or may not be wise depending on the circumstances. " + "%2$sLearn more about stop words%3$s.")
 		};
 	}
 

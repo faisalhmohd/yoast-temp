@@ -126,7 +126,7 @@ var KeyphraseDistributionAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links to Yoast.com articles,
      %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase distribution%3$s: " + "%2$sInclude your keyphrase or its synonyms in the text so that we can check keyphrase distribution%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword distribution%3$s: " + "%2$sInclude your keyword or its synonyms in the text so that we can check keyword distribution%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -136,7 +136,7 @@ var KeyphraseDistributionAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links to Yoast.com articles,
      %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase distribution%3$s: " + "Very uneven. Large parts of your text do not contain the keyphrase or its synonyms. %2$sDistribute them more evenly%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword distribution%3$s: " + "Very uneven. Large parts of your text do not contain the keyword or its synonyms. %2$sDistribute them more evenly%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -146,7 +146,7 @@ var KeyphraseDistributionAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links to Yoast.com articles,
      %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase distribution%3$s: " + "Uneven. Some parts of your text do not contain the keyphrase or its synonyms. %2$sDistribute them more evenly%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword distribution%3$s: " + "Uneven. Some parts of your text do not contain the keyword or its synonyms. %2$sDistribute them more evenly%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -154,7 +154,7 @@ var KeyphraseDistributionAssessment = function (_Assessment) {
 				score: this._config.scores.good,
 				resultText: i18n.sprintf(
 				/* Translators: %1$s expands to links to Yoast.com articles, %2$s expands to the anchor end tag */
-				i18n.dgettext("js-text-analysis", "%1$sKeyphrase distribution%2$s: Good job!"), this._config.urlTitle, "</a>")
+				i18n.dgettext("js-text-analysis", "%1$sKeyword distribution%2$s: Good job!"), this._config.urlTitle, "</a>")
 			};
 		}
 

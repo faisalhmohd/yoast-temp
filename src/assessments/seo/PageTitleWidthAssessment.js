@@ -147,7 +147,7 @@ var PageTitleWidthAssesment = function (_Assessment) {
 			if ((0, _inRange.inRangeEndInclusive)(pageTitleWidth, 1, 400)) {
 				return i18n.sprintf(
 				/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-				i18n.dgettext("js-text-analysis", "%1$sSEO title width%3$s: The SEO title is too short. " + "%2$sUse the space to add keyphrase variations or create compelling call-to-action copy%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>");
+				i18n.dgettext("js-text-analysis", "%1$sSEO title width%3$s: The SEO title is too short. " + "%2$sUse the space to add keyword variations or create compelling call-to-action copy%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>");
 			}
 
 			if ((0, _inRange.inRangeEndInclusive)(pageTitleWidth, this._config.minLength, this._config.maxLength)) {
