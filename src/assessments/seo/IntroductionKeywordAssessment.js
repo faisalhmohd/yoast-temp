@@ -120,7 +120,7 @@ var IntroductionKeywordAssessment = function (_Assessment) {
 					score: this._config.scores.good,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in introduction%2$s: Well done!"), this._config.urlTitle, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in introduction%2$s: Well done!"), this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -129,7 +129,7 @@ var IntroductionKeywordAssessment = function (_Assessment) {
 					score: this._config.scores.okay,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in introduction%3$s:" + "Your keyphrase or its synonyms appear in the first paragraph of the copy, but not within one sentence. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in introduction%3$s:" + "Your keyword or its synonyms appear in the first paragraph of the copy, but not within one sentence. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -137,7 +137,7 @@ var IntroductionKeywordAssessment = function (_Assessment) {
 				score: this._config.scores.bad,
 				resultText: i18n.sprintf(
 				/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag. */
-				i18n.dgettext("js-text-analysis", "%1$sKeyphrase in introduction%3$s: Your keyphrase or its synonyms do not appear in the first paragraph. " + "%2$sMake sure the topic is clear immediately%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dgettext("js-text-analysis", "%1$sKeyword in introduction%3$s: Your keyword or its synonyms do not appear in the first paragraph. " + "%2$sMake sure the topic is clear immediately%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 	}]);

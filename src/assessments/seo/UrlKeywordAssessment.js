@@ -119,7 +119,7 @@ var UrlKeywordAssessment = function (_Assessment) {
 						score: this._config.scores.good,
 						resultText: i18n.sprintf(
 						/* Translators:  %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag */
-						i18n.dgettext("js-text-analysis", "%1$sKeyphrase in slug%2$s: Great work!"), this._config.urlTitle, "</a>")
+						i18n.dgettext("js-text-analysis", "%1$sKeyword in slug%2$s: Great work!"), this._config.urlTitle, "</a>")
 					};
 				}
 
@@ -127,7 +127,7 @@ var UrlKeywordAssessment = function (_Assessment) {
 					score: this._config.scores.okay,
 					resultText: i18n.sprintf(
 					/* Translators:  %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in slug%3$s: (Part of) your keyphrase does not appear in the slug. %2$sChange that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in slug%3$s: (Part of) your keyword does not appear in the slug. %2$sChange that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -136,14 +136,14 @@ var UrlKeywordAssessment = function (_Assessment) {
 					score: this._config.scores.good,
 					resultText: i18n.sprintf(
 					/* Translators:  %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in slug%2$s: More than half of your keyphrase appears in the slug. That's great!"), this._config.urlTitle, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in slug%2$s: More than half of your keyword appears in the slug. That's great!"), this._config.urlTitle, "</a>")
 				};
 			}
 			return {
 				score: this._config.scores.okay,
 				resultText: i18n.sprintf(
 				/* Translators:  %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-				i18n.dgettext("js-text-analysis", "%1$sKeyphrase in slug%3$s: (Part of) your keyphrase does not appear in the slug. %2$sChange that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dgettext("js-text-analysis", "%1$sKeyword in slug%3$s: (Part of) your keyword does not appear in the slug. %2$sChange that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 	}]);

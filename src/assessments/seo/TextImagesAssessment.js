@@ -152,7 +152,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRegular.withAltKeyword,
 					resultText: i18n.sprintf(
 					/* Translators:  %1$s expands to a link on yoast.com, %2$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%2$s: " + "Some images on this page contain alt attributes with words to your keyphrase! Good job!"), this._config.urlTitle, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%2$s: " + "Some images on this page contain alt attributes with words to your keyword! Good job!"), this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -162,7 +162,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRegular.withAltNonKeyword,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyphrase. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyword. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -172,7 +172,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRegular.withAlt,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyphrase. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyword. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -182,7 +182,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRegular.noAlt,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyphrase. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes with words to your keyword. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 			return null;
@@ -256,7 +256,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRecalibration.withAlt,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page have alt attributes, but you have not set your keyphrase. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page have alt attributes, but you have not set your keyword. %2$sFix that%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -266,7 +266,7 @@ var TextImagesAssessment = function (_Assessment) {
 					score: this._config.scoresRecalibration.withAltNonKeyword,
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes that reflect the topic of your text. " + "%2$sAdd your keyphrase or synonyms to the alt tags of relevant images%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes that reflect the topic of your text. " + "%2$sAdd your keyword or synonyms to the alt tags of relevant images%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -278,7 +278,7 @@ var TextImagesAssessment = function (_Assessment) {
 					/* Translators: %1$d expands to the number of images containing an alt attribute with the keyword,
       * %2$d expands to the total number of images, %3$s and %4$s expand to links on yoast.com,
       * %5$s expands to the anchor end tag. */
-					i18n.dngettext("js-text-analysis", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, only %1$d has an alt attribute that " + "reflects the topic of your text. " + "%4$sAdd your keyphrase or synonyms to the alt tags of more relevant images%5$s!", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, only %1$d have alt attributes that " + "reflect the topic of your text. " + "%4$sAdd your keyphrase or synonyms to the alt tags of more relevant images%5$s!", this.altProperties.withAltKeyword), this.altProperties.withAltKeyword, this.imageCount, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dngettext("js-text-analysis", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, only %1$d has an alt attribute that " + "reflects the topic of your text. " + "%4$sAdd your keyword or synonyms to the alt tags of more relevant images%5$s!", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, only %1$d have alt attributes that " + "reflect the topic of your text. " + "%4$sAdd your keyword or synonyms to the alt tags of more relevant images%5$s!", this.altProperties.withAltKeyword), this.altProperties.withAltKeyword, this.imageCount, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -303,7 +303,7 @@ var TextImagesAssessment = function (_Assessment) {
 					/* Translators: %1$d expands to the number of images containing an alt attribute with the keyword,
                      * %2$d expands to the total number of images, %3$s and %4$s expand to a link on yoast.com,
       * %5$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, %1$d have alt attributes with " + "words to your keyphrase or synonyms. " + "That's a bit much. %4$sOnly include the keyphrase or its synonyms when it really fits the image%5$s."), this.altProperties.withAltKeyword, this.imageCount, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%3$sImage alt attributes%5$s: Out of %2$d images on this page, %1$d have alt attributes with " + "words to your keyword or synonyms. " + "That's a bit much. %4$sOnly include the keyword or its synonyms when it really fits the image%5$s."), this.altProperties.withAltKeyword, this.imageCount, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -312,7 +312,7 @@ var TextImagesAssessment = function (_Assessment) {
 				score: this._config.scoresRecalibration.noAlt,
 				resultText: i18n.sprintf(
 				/* Translators: %1$s and %2$s expand to links on yoast.com, %3$s expands to the anchor end tag */
-				i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes that reflect the topic of your text. " + "%2$sAdd your keyphrase or synonyms to the alt tags of relevant images%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dgettext("js-text-analysis", "%1$sImage alt attributes%3$s: " + "Images on this page do not have alt attributes that reflect the topic of your text. " + "%2$sAdd your keyword or synonyms to the alt tags of relevant images%3$s!"), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 	}]);

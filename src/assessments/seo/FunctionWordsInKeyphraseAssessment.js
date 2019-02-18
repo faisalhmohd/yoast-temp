@@ -89,7 +89,7 @@ var FunctionWordsInKeyphraseAssessment = function (_Assessment) {
      * %3$s expands to the anchor end tag,
      * %4$s expands to the focus keyphrase of the article.
      */
-				i18n.dgettext("js-text-analysis", "%1$sFunction words in keyphrase%3$s: " + "Your keyphrase \"%4$s\" contains function words only. " + "%2$sLearn more about what makes a good keyphrase.%3$s"), this._config.urlTitle, this._config.urlCallToAction, "</a>", this._keyword));
+				i18n.dgettext("js-text-analysis", "%1$sFunction words in keyword%3$s: " + "Your keyword \"%4$s\" contains function words only. " + "%2$sLearn more about what makes a good keyword.%3$s"), this._config.urlTitle, this._config.urlCallToAction, "</a>", this._keyword));
 			}
 
 			return assessmentResult;

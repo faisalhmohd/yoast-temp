@@ -286,7 +286,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %2$d expands to the keyphrase count,
      %3$s and %4$s expand to links to Yoast.com,
      %5$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%3$sKeyphrase density%5$s: %1$s. " + "This is too low; the keyphrase was found %2$d times. %4$sFocus on your keyphrase%5$s!"), keywordDensityPercentage, this._keywordCount.count, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%3$sKeyword density%5$s: %1$s. " + "This is too low; the keyword was found %2$d times. %4$sFocus on your keyword%5$s!"), keywordDensityPercentage, this._keywordCount.count, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -299,7 +299,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %2$d expands to the keyphrase count,
      %3$s and %4$s expand to links to Yoast.com,
      %5$s expands to the anchor end tag. */
-					i18n.dngettext("js-text-analysis", "%3$sKeyphrase density%5$s: %1$s. " + "This is too low; the keyphrase was found %2$d time. %4$sFocus on your keyphrase%5$s!", "%3$sKeyphrase density%5$s: %1$s. " + "This is too low; the keyphrase was found %2$d times. %4$sFocus on your keyphrase%5$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dngettext("js-text-analysis", "%3$sKeyword density%5$s: %1$s. " + "This is too low; the keyword was found %2$d time. %4$sFocus on your keyword%5$s!", "%3$sKeyword density%5$s: %1$s. " + "This is too low; the keyword was found %2$d times. %4$sFocus on your keyword%5$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -311,7 +311,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %1$s expands to the keyphrase density percentage,
      %2$s expands to a link to Yoast.com,
      %3$s expands to the anchor end tag. */
-					i18n.dngettext("js-text-analysis", "%2$sKeyphrase density%3$s: %1$s. " + "This is great!"), keywordDensityPercentage, this._config.urlTitle, "</a>")
+					i18n.dngettext("js-text-analysis", "%2$sKeyword density%3$s: %1$s. " + "This is great!"), keywordDensityPercentage, this._config.urlTitle, "</a>")
 				};
 			}
 
@@ -325,7 +325,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %3$s expands to the maximum keyphrase density percentage,
      %4$s and %5$s expand to links to Yoast.com,
      %6$s expands to the anchor end tag. */
-					i18n.dngettext("js-text-analysis", "%4$sKeyphrase density%6$s: %1$s. " + "This is over the advised %3$s maximum; the keyphrase was found %2$d time. " + "%5$sDon't overoptimize%6$s!", "%4$sKeyphrase density%6$s: %1$s. " + "This is over the advised %3$s maximum; the keyphrase was found %2$d times. " + "%5$sDon't overoptimize%6$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, maxText, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dngettext("js-text-analysis", "%4$sKeyword density%6$s: %1$s. " + "This is over the advised %3$s maximum; the keyword was found %2$d time. " + "%5$sDon't overoptimize%6$s!", "%4$sKeyword density%6$s: %1$s. " + "This is over the advised %3$s maximum; the keyword was found %2$d times. " + "%5$sDon't overoptimize%6$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, maxText, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -339,7 +339,7 @@ var KeywordDensityAssessment = function (_Assessment) {
     %3$s expands to the maximum keyphrase density percentage,
     %4$s and %5$s expand to links to Yoast.com,
     %6$s expands to the anchor end tag. */
-				i18n.dngettext("js-text-analysis", "%4$sKeyphrase density%6$s: %1$s. " + "This is way over the advised %3$s maximum; the keyphrase was found %2$d time. " + "%5$sDon't overoptimize%6$s!", "%4$sKeyphrase density%6$s: %1$s. " + "This is way over the advised %3$s maximum; the keyphrase was found %2$d times. " + "%5$sDon't overoptimize%6$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, maxText, this._config.urlTitle, this._config.urlCallToAction, "</a>")
+				i18n.dngettext("js-text-analysis", "%4$sKeyword density%6$s: %1$s. " + "This is way over the advised %3$s maximum; the keyword was found %2$d time. " + "%5$sDon't overoptimize%6$s!", "%4$sKeyword density%6$s: %1$s. " + "This is way over the advised %3$s maximum; the keyword was found %2$d times. " + "%5$sDon't overoptimize%6$s!", this._keywordCount.count), keywordDensityPercentage, this._keywordCount.count, maxText, this._config.urlTitle, this._config.urlCallToAction, "</a>")
 			};
 		}
 
@@ -362,7 +362,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %1$s and %4$s expand to links to Yoast.com,
      %2$s expands to the anchor end tag,
      %3$d expands to the recommended minimal number of times the keyphrase should occur in the text. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase density%2$s: The focus keyphrase was found 0 times. " + "That's less than the recommended minimum of %3$d times for a text of this length. " + "%4$sFocus on your keyphrase%2$s!"), this._config.urlTitle, "</a>", this._minRecommendedKeywordCount, this._config.urlCallToAction)
+					i18n.dgettext("js-text-analysis", "%1$sKeyword density%2$s: The focus keyword was found 0 times. " + "That's less than the recommended minimum of %3$d times for a text of this length. " + "%4$sFocus on your keyword%2$s!"), this._config.urlTitle, "</a>", this._minRecommendedKeywordCount, this._config.urlCallToAction)
 				};
 			}
 
@@ -375,7 +375,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %2$s expands to the anchor end tag,
      %3$d expands to the recommended minimal number of times the keyphrase should occur in the text,
      %5$d expands to the number of times the keyphrase occurred in the text. */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d time. That's less than the " + "recommended minimum of %3$d times for a text of this length. %4$sFocus on your keyphrase%2$s!", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d times. That's less than the " + "recommended minimum of %3$d times for a text of this length. %4$sFocus on your keyphrase%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._minRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
+					i18n.dngettext("js-text-analysis", "%1$sKeyword density%2$s: The focus keyword was found %5$d time. That's less than the " + "recommended minimum of %3$d times for a text of this length. %4$sFocus on your keyword%2$s!", "%1$sKeyword density%2$s: The focus keyword was found %5$d times. That's less than the " + "recommended minimum of %3$d times for a text of this length. %4$sFocus on your keyword%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._minRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
 				};
 			}
 
@@ -387,7 +387,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %1$s expands to a link to Yoast.com,
      %2$s expands to the anchor end tag,
      %3$d expands to the number of times the keyphrase occurred in the text. */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase density%2$s: The focus keyphrase was found %3$d time. This is great!", "%1$sKeyphrase density%2$s: The focus keyphrase was found %3$d times. This is great!", this._keywordCount.count), this._config.urlTitle, "</a>", this._keywordCount.count)
+					i18n.dngettext("js-text-analysis", "%1$sKeyword density%2$s: The focus keyword was found %3$d time. This is great!", "%1$sKeyword density%2$s: The focus keyword was found %3$d times. This is great!", this._keywordCount.count), this._config.urlTitle, "</a>", this._keywordCount.count)
 				};
 			}
 
@@ -400,7 +400,7 @@ var KeywordDensityAssessment = function (_Assessment) {
      %2$s expands to the anchor end tag,
      %3$d expands to the recommended maximal number of times the keyphrase should occur in the text,
      %5$d expands to the number of times the keyphrase occurred in the text. */
-					i18n.dngettext("js-text-analysis", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d time. That's more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d times. That's more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._maxRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
+					i18n.dngettext("js-text-analysis", "%1$sKeyword density%2$s: The focus keyword was found %5$d time. That's more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", "%1$sKeyword density%2$s: The focus keyword was found %5$d times. That's more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._maxRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
 				};
 			}
 
@@ -413,7 +413,7 @@ var KeywordDensityAssessment = function (_Assessment) {
     %2$s expands to the anchor end tag,
     %3$d expands to the recommended maximal number of times the keyphrase should occur in the text,
     %5$d expands to the number of times the keyphrase occurred in the text. */
-				i18n.dngettext("js-text-analysis", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d time. That's way more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", "%1$sKeyphrase density%2$s: The focus keyphrase was found %5$d times. That's way more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._maxRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
+				i18n.dngettext("js-text-analysis", "%1$sKeyword density%2$s: The focus keyword was found %5$d time. That's way more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", "%1$sKeyword density%2$s: The focus keyword was found %5$d times. That's way more than the " + "recommended maximum of %3$d times for a text of this length. %4$sDon't overoptimize%2$s!", this._keywordCount.count), this._config.urlTitle, "</a>", this._maxRecommendedKeywordCount, this._config.urlCallToAction, this._keywordCount.count)
 			};
 		}
 

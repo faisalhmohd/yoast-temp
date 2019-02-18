@@ -135,7 +135,7 @@ var TitleKeywordAssessment = function (_Assessment) {
 						resultText: i18n.sprintf(
 						/* Translators: %1$s expands to a link on yoast.com,
       %2$s expands to the anchor end tag. */
-						i18n.dgettext("js-text-analysis", "%1$sKeyphrase in title%2$s: The exact match of the keyphrase appears at the beginning " + "of the SEO title. Good job!"), this._config.urlTitle, "</a>")
+						i18n.dgettext("js-text-analysis", "%1$sKeyword in title%2$s: The exact match of the keyword appears at the beginning " + "of the SEO title. Good job!"), this._config.urlTitle, "</a>")
 					};
 				}
 				return {
@@ -143,7 +143,7 @@ var TitleKeywordAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to a link on yoast.com,
      %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in title%3$s: The exact match of the keyphrase appears in the SEO title, but not " + "at the beginning. %2$sTry to move it to the beginning%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in title%3$s: The exact match of the keyword appears in the SEO title, but not " + "at the beginning. %2$sTry to move it to the beginning%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -153,7 +153,7 @@ var TitleKeywordAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to a link on yoast.com,
      %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in title%3$s: Does not contain the exact match. %2$sTry to write the exact match of " + "your keyphrase in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in title%3$s: Does not contain the exact match. %2$sTry to write the exact match of " + "your keyword in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>")
 				};
 			}
 
@@ -163,7 +163,7 @@ var TitleKeywordAssessment = function (_Assessment) {
 					resultText: i18n.sprintf(
 					/* Translators: %1$s and %2$s expand to a link on yoast.com,
      %3$s expands to the anchor end tag. */
-					i18n.dgettext("js-text-analysis", "%1$sKeyphrase in title%3$s: Does not contain the exact match. %2$sTry to write the exact match of " + "your keyphrase in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>", keyword)
+					i18n.dgettext("js-text-analysis", "%1$sKeyword in title%3$s: Does not contain the exact match. %2$sTry to write the exact match of " + "your keyword in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>", keyword)
 				};
 			}
 
@@ -172,7 +172,7 @@ var TitleKeywordAssessment = function (_Assessment) {
 				resultText: i18n.sprintf(
 				/* Translators: %1$s and %2$s expand to a link on yoast.com,
     %3$s expands to the anchor end tag, %4$s expands to the keyword of the article. */
-				i18n.dgettext("js-text-analysis", "%1$sKeyphrase in title%3$s: Not all the words to your keyphrase \"%4$s\" appear in the SEO title. " + "%2$sTry to use the exact match of your keyphrase in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>", keyword)
+				i18n.dgettext("js-text-analysis", "%1$sKeyword in title%3$s: Not all the words to your keyword \"%4$s\" appear in the SEO title. " + "%2$sTry to use the exact match of your keyword in the SEO title%3$s."), this._config.urlTitle, this._config.urlCallToAction, "</a>", keyword)
 			};
 		}
 	}]);
