@@ -5,7 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function (text) {
-  return text.replace(sentenceTerminators, "");
+  if(text) {
+    return text.replace(sentenceTerminators, "");
+  }
+  return text;
 };
 
 // These are sentence terminators, that never should be in the middle of a word.
